@@ -1030,7 +1030,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
             BorderSizePixel = 0,
             BackgroundTransparency = 1,
             Position = UDim2.new(0, 595, 0, 150),
-            Size = UDim2.new(0, 0, 0, 0)
+            Size = UDim2.new(0, 75, 0, 125)
         }, {
             Utility:Create('UICorner', {
                 CornerRadius = UDim.new(0, 7),
