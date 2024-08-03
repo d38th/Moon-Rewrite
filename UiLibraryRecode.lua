@@ -1034,7 +1034,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
             Size = UDim2.new(50, 0, 50, 0)
         }, {
             Utility:Create('UICorner', {
-                CornerRadius = UDim.new(0, 15),
+                CornerRadius = UDim.new(0, 25),
                 Name = 'MainCorner'
             }),
             Utility:Create('TextLabel', {
