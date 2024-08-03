@@ -1030,8 +1030,8 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
             BorderSizePixel = 0,
             BackgroundTransparency = 1,
             AnchorPoint = Vector2.new(0.5, 0.5),
-            Position = UDim2.new(0, 0, 0, 0),
-            Size = UDim2.new(0, 50, 0, 75)
+            Position = UDim2.new(0.5, 0, 0.5, 0),
+            Size = UDim2.new(0, 75, 0, 50)
         }, {
             Utility:Create('UICorner', {
                 CornerRadius = UDim.new(0, 7),
@@ -1062,7 +1062,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
                 AnchorPoint = Vector2.new(0.5, 0.5),
                 Position = UDim2.new(0.5, 0, 0.5, -40),
                 ZIndex = 3,
-                Size = UDim2.new(0, 250, 0, 250),
+                Size = UDim2.new(0, 125, 0, 125),
                 Image = IntroIcon,
                 ScaleType = Enum.ScaleType.Fit
             })
