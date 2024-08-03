@@ -1042,7 +1042,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
                 BackgroundTransparency = 1,
                 TextTransparency = 1,
                 AnchorPoint = Vector2.new(0.5, 0.5),
-                Position = UDim2.new(0.5, 0, 0.5, 20),
+                Position = UDim2.new(0.5, 0, 0.5, 50),
                 BorderSizePixel = 0,
                 Size = UDim2.new(0, 170, 0, 20),
                 Font = Enum.Font.FredokaOne,
@@ -1061,7 +1061,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
                 AnchorPoint = Vector2.new(0.5, 0.5),
                 Position = UDim2.new(0.5, 0, 0.5, -40),
                 ZIndex = 3,
-                Size = UDim2.new(0, 100, 0, 100),
+                Size = UDim2.new(0, 250, 0, 250),
                 Image = IntroIcon,
                 ScaleType = Enum.ScaleType.Fit
             })
