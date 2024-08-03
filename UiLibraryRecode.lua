@@ -1032,9 +1032,9 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
             AnchorPoint = Vector2.new(0.5, 0.5),
             Position = UDim2.new(0.5, 0, 0.5, 0),
             Size = UDim2.new(50, 0, 50, 0)
-        }, {
+         {
             Utility:Create('UICorner', {
-                CornerRadius = UDim.new(0, 25),
+                CornerRadius = UDim.new(0, 15),
                 Name = 'MainCorner'
             }),
             Utility:Create('TextLabel', {
@@ -1066,6 +1066,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
                 Image = IntroIcon,
                 ScaleType = Enum.ScaleType.Fit
             })
+        },
         }),
     })
 
