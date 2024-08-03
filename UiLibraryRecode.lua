@@ -93,14 +93,14 @@ local Themes = {
     },
     ['Murple'] = {
         BackgroundColor = Color3.fromRGB(28, 36, 51),
-        SidebarColor = nil,
+        SidebarColor = Color3.fromRGB(25, 29, 43),
         PrimaryTextColor = Color3.fromRGB(255, 255, 255),
         SecondaryTextColor = Color3.fromRGB(144, 141, 161),
         UIStrokeColor = Color3.fromRGB(21, 23, 35),
         PrimaryElementColor = Color3.fromRGB(23, 26, 39),
         SecondaryElementColor = Color3.fromRGB(23, 26, 39),
         OtherElementColor = Color3.fromRGB(23, 26, 39),
-        ScrollBarColor = Color3.fromRGB(77, 51, 102),
+        ScrollBarColor = nil,
         PromptColor = Color3.fromRGB(50, 50, 65),
         NotificationColor = Color3.fromRGB(30, 30, 45),
         NotificationUIStrokeColor = Color3.fromRGB(60, 60, 80)
