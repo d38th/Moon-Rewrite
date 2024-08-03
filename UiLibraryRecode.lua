@@ -93,7 +93,7 @@ local Themes = {
     },
     ['Murple'] = {
         BackgroundColor = Color3.fromRGB(28, 36, 51),
-        SidebarColor = Color3.fromRGB(25, 29, 43),
+        SidebarColor = nil,
         PrimaryTextColor = Color3.fromRGB(255, 255, 255),
         SecondaryTextColor = Color3.fromRGB(144, 141, 161),
         UIStrokeColor = Color3.fromRGB(21, 23, 35),
