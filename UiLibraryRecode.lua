@@ -23,10 +23,6 @@ function Library:CreateWindow(windowname,windowinfo)
     local PageContainerCorner = Instance.new("UICorner")
     local PageFolder = Instance.new("Folder")
     local Title = Instance.new("TextLabel")
-    local Yep = Instance.new("TextButton")
-    local Cre = Instance.new("ImageLabel")
-    local YepTitle = Instance.new("TextLabel")
-    local YepCorner = Instance.new("UICorner")
 
     fu8rj82n.Name = "fu8rj82n"
     fu8rj82n.Parent = game.CoreGui
@@ -60,7 +56,6 @@ function Library:CreateWindow(windowname,windowinfo)
     TabContainer.BackgroundTransparency = 1.000
     TabContainer.BorderColor3 = Color3.fromRGB(15, 15, 15)
     TabContainer.BorderSizePixel = 0
-    TabContainer.AnchorPoint = 0.5, 0.5
     TabContainer.Position = UDim2.new(0.5, 0, 0.5, 0)
     TabContainer.Size = UDim2.new(0, 619, 0, 61)
     
