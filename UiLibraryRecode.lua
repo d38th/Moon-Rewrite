@@ -61,7 +61,9 @@ function Library:CreateWindow(windowname,windowinfo)
     
     TabContainer_2.Name = "TabContainer"
     TabContainer_2.Parent = TabContainer
-    TabContainer_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+    TabContainer_2.HorizontalAlignment = Enum.HorizontalAlignment.Left
+    TabContainer_2.VerticalAlignment = Enum.VerticalAlignment.Center
+    TabContainer_2.FillDirection = Enum.FillDirection.Horizontal
     TabContainer_2.SortOrder = Enum.SortOrder.LayoutOrder
     TabContainer_2.Padding = UDim.new(0, 8)
 
