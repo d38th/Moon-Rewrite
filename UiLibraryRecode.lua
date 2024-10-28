@@ -149,15 +149,15 @@ function Library:CreateWindow(windowname,windowinfo)
         
         Tab.Name = "Tab"
         Tab.Parent = TabContainer
-        Tab.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-        Tab.BorderColor3 = Color3.fromRGB(15, 15, 15)
+        Tab.BackgroundColor3 = Color3.fromRGB(18, 23, 27)
+        Tab.BorderColor3 = Color3.fromRGB(18, 23, 27)
         Tab.Position = UDim2.new(-0.0250000004, 0, 0, 0)
-        Tab.Size = UDim2.new(0, 106, 0, 26)
+        Tab.Size = UDim2.new(0, 137, 0, 35)
         Tab.AutoButtonColor = false
-        Tab.Font = Enum.Font.GothamSemibold
+        Tab.Font = Enum.Font.GothamBlack
         Tab.Text = pagename or "nil"
         Tab.TextColor3 = Color3.fromRGB(255, 255, 255)
-        Tab.TextSize = 11.000
+        Tab.TextSize = 22.000
         Tab.TextTransparency = 0.300
         
         TabCorner.CornerRadius = UDim.new(0, 7)
@@ -171,8 +171,8 @@ function Library:CreateWindow(windowname,windowinfo)
         Home.BackgroundTransparency = 1.000
         Home.BorderColor3 = Color3.fromRGB(15, 15, 15)
         Home.BorderSizePixel = 0
-        Home.Position = UDim2.new(0, 0, 0.0391303785, 0)
-        Home.Size = UDim2.new(0, 298, 0, 205)
+        Home.Position = UDim2.new(0, 0, 0, 0)
+        Home.Size = UDim2.new(1, 0, 1, 0)
         Home.ScrollBarThickness = 3
         Home.ScrollBarImageColor3 = Color3.fromRGB(5,5,5)
         Home.CanvasSize = UDim2.new(0,0,scrollsize,0) or UDim2.new(0,0,4,0)
@@ -213,11 +213,11 @@ function Library:CreateWindow(windowname,windowinfo)
         end
         
         Tab.MouseEnter:Connect(function()
-            Tab.BackgroundColor3 = Color3.fromRGB(10,10,10)
+            Tab.BackgroundColor3 = Color3.fromRGB(14, 18, 21)
         end)
         
         Tab.MouseLeave:Connect(function()
-            Tab.BackgroundColor3 = Color3.fromRGB(15,15,15)
+            Tab.BackgroundColor3 = Color3.fromRGB(18, 23, 27)
         end)
         -- end
 
